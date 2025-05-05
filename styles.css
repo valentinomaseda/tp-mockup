@@ -54,11 +54,11 @@ nav ul {
     font-size: 20px;
 }
 
-li {
+nav li {
     margin: 0 10px 0 10px;
 }
 
-li a {
+nav li a {
     text-decoration: none;
     color: #1E7335;
     padding: 10px 15px 10px 15px;
@@ -66,7 +66,7 @@ li a {
     transition: all .3s ease;
 }
 
-li a:hover {
+nav li a:hover {
     background-color: #323232;
 }
 
@@ -200,4 +200,82 @@ h2 {
 .cajaProducto:hover {
     background-color: #81b18e;
     transform: scale(1.1);
+}
+
+
+/*  FOOTER  */
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+  
+.footerContainer {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+  
+.footerLogo img {
+    width: 100px;
+    margin-bottom: 15px;
+  }
+  
+.footerLinks {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+  
+.footerLinks a {
+    color: #aaa;
+    text-decoration: none;
+}
+  
+.footerLinks a:hover {
+    color: white;
+}
+  
+.footerSocial {
+    margin: 20px 0;
+}
+  
+.footerSocial a {
+    color: #aaa;
+    margin: 0 10px;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+  
+.footerSocial a:hover {
+    color: white;
+}
+
+
+.btnWsp {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 0 10px 0 black;
+    transition: all .3s ease;
+}
+
+.btnWsp:hover {
+    transform: scale(1.1);
+}
+
+.btnWsp img {
+    width: 50px;
+    height: auto;
+    object-fit: cover;
 }
