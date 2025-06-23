@@ -67,7 +67,8 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #323232;
+    background-color: #0c3f19;
+    color: #36a854;
 }
 
 .btnLogIn {
@@ -157,6 +158,14 @@ h2 {
     font-size: 20px;
     color: #323232;
     margin-left: 20px;
+}
+
+.btnFlechaAbajo {
+    padding: 0;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
 }
 
 .filtro i {
@@ -258,6 +267,7 @@ footer {
     color: white;
 }
 
+/*  BOTON WSP  */
 
 .btnWsp {
     position: fixed;
